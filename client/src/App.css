@@ -1,0 +1,152 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: #f5f7f8;
+}
+div.login-wrapper {
+  background-color: #393838;
+  background-image: url("./Assects/blob.png");
+  background-size: cover;
+}
+div.login-container {
+  background-color: #54525282;
+  height: 45rem;
+  margin: auto;
+  align-items: center;
+}
+
+div.table-wrapper {
+  background-color: #1c191982;
+}
+
+div.signup-wrapper {
+  background-color: #393838;
+  background-image: url("./Assects/blob.png");
+  background-size: cover;
+}
+div.signup-container {
+  background-color: #54525282;
+  height: 45rem;
+  margin: auto;
+  align-items: center;
+}
+
+div.update-wrapper {
+  background-color: #393838;
+}
+div.update-container {
+  background-color: #54525282;
+
+  background-image: url("./Assects/waves.png");
+
+  height: 35rem;
+  margin: auto;
+  align-items: center;
+}
+
+div.dashboard-wrapper {
+  background-image: url("./Assects/side-wave_background.png");
+  background-size: cover;
+  background-color: #393838;
+}
+
+input {
+  color: #f5f7f8;
+  margin-bottom: 5px;
+  width: 100%;
+  padding: 10px 14px;
+  border: 2px solid #ddd;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+input::placeholder {
+  color: #f5f7f8;
+}
+
+.credential-field {
+  background: none;
+  width: 21rem;
+  /* margin: auto; */
+  border: 2px solid #ddd;
+}
+
+div.navbar {
+  padding-right: 1rem;
+}
+
+.vector {
+  width: 35rem;
+  border-radius: 15rem 0;
+}
+
+option.field {
+  background: none;
+}
+
+div.position {
+  position: relative;
+}
+
+p.login-account {
+  position: absolute;
+  font-size: 0.9rem;
+  top: 30rem;
+  right: 5rem;
+}
+p.create-account {
+  position: absolute;
+  font-size: 0.9rem;
+  top: 36.6rem;
+  right: 5rem;
+}
+
+p.reset {
+  position: absolute;
+  top: 25rem;
+  right: 7.5rem;
+}
+
+p a {
+  text-decoration: none;
+  font-weight: 500;
+}
+p a:hover {
+  text-decoration: underline;
+}
+
+div.home {
+  background-image: url("./Assects/side-wave_background.png");
+  background-size: cover;
+  background-color: #393838;
+}
+
+div select {
+  width: 100%;
+  background-color: #54525282;
+  padding: 0.6rem;
+}
+
+.modal-wrapper {
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  top: 0;
+  background-color: #3735354e;
+}
+
+.modal-container {
+  background-color: #393838;
+  border: solid 2px;
+  border-color: #d69869 #d64f4f #d64f4f #d69869;
+  height: 20rem;
+  width: 23rem;
+  padding: 1.5rem 3.4rem;
+  position: fixed;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  max-width: 25rem;
+}
